@@ -46,18 +46,33 @@ The Tableau or Power BI dashboard is designed to facilitate a comparative analys
 1.  **Genre Feature Comparison (Radar/Spider Chart)**
     * **Description:** A chart where each axis represents a key audio feature (**Energy, Danceability, Valence, Acousticness, etc.**). Each genre is represented by a separate line or shaded area, allowing for an immediate visual comparison of their average characteristics.     * **Purpose:** To quickly determine the **sonic signature** of each genre (e.g., see if "Classical" is high on acousticness and low on energy, while "Techno" is the opposite).
 
+<img width="1361" height="685" alt="image" src="https://github.com/user-attachments/assets/762c2e96-f186-4892-a5be-93ddc03c744e" />
+
 2.  **Popularity by Genre (Ranked Bar Chart)**
     * **Description:** A horizontal bar chart ranking all genres based on the **average 'popularity'** score of the tracks within them.
     * **Purpose:** Identifies which genres contain the most highly-rated or successful tracks on the platform.
+
+<img width="1360" height="607" alt="image" src="https://github.com/user-attachments/assets/1ac0440a-f6af-4348-abd7-e60b222b6f42" />
+
+
+
 
 3.  **Tempo & Duration Distribution (Box Plot or Histogram)**
     * **Description:** Charts showing the distribution (median, quartiles, range) of **Tempo (BPM)** and **Duration (ms)** for selected genres.
     * **Purpose:** Reveals the typical speed and length of songs within a genre and highlights outliers (e.g., a "Classical" box plot might show a wider range of durations than "Pop").
 
+   <img width="1239" height="609" alt="image" src="https://github.com/user-attachments/assets/8528231c-c8ad-47cc-899a-60fc61812f34" />
+
 4.  **Loudness vs. Energy Scatter Plot**
     * **Description:** A scatter plot with **Loudness** on one axis and **Energy** on the other. Genres are color-coded, showing the correlation between these two variables.
     * **Purpose:** To confirm the expected relationship that higher energy tracks are generally louder, and to see if any genres deviate significantly from this trend.
 
+<img width="1239" height="608" alt="image" src="https://github.com/user-attachments/assets/f499238b-062a-431d-8134-652e7d41adc4" />
+
+
 5.  **Data Grid / Detail Table**
     * **Description:** A filtered table showing the top tracks (by popularity) for the currently selected genre, including their individual feature scores.
     * **Purpose:** Allows users to drill down and examine specific tracks that represent the genre's aggregated characteristics.
+
+<img width="1237" height="606" alt="image" src="https://github.com/user-attachments/assets/362a11d1-9014-441a-9cdb-363435f17433" />
+
